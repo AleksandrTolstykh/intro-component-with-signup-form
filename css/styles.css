@@ -1,0 +1,88 @@
+body {
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("../images/bg-intro-desktop.png");
+  color: #fff;
+  font-family: "Poppins";
+}
+
+h1, .bold {
+  font-weight: 700!important;
+}
+
+input {
+  color: hsl(249, 10%, 26%)!important;
+  font-weight: 600!important;
+}
+
+.alert {
+  background-color: hsl(248, 32%, 49%);
+}
+
+.card em {
+  color: hsl(0, 100%, 74%);
+  font-size: 12px;
+}
+
+.card p {
+  color: hsl(246, 25%, 77%);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  border: 1px solid #ced4da;
+  border-right: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn {
+  background-color: hsl(154, 59%, 51%);
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn:hover {
+  color: #fff;
+  opacity: 50%;
+}
+
+.text-red {
+  color: hsl(0, 100%, 74%);
+}
+
+.error {
+  border: solid 3px;
+  border-color: hsl(0, 100%, 74%);
+  color: hsl(0, 100%, 74%);
+}
+
+.error-image-1 {
+  right: 10%;
+  top: 23px;
+}
+
+.error-image-2 {
+  right: 10%;
+  top: 115px;
+}
+
+.error-image-3 {
+  right: 10%;
+  top: 207px;
+}
+
+.error-image-4 {
+  right: 10%;
+  top: 299px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
